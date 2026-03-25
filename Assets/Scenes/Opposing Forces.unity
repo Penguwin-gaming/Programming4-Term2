@@ -685,14 +685,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: NodeCanvas::NodeCanvas.BehaviourTrees.BehaviourTreeOwner
   _serializedExposedParameters: []
-  _boundGraphSerialization: '{"type":"NodeCanvas.BehaviourTrees.BehaviourTree","nodes":[{"_position":{"x":582.0,"y":183.0},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"0"},{"_condition":{"LOSTarget":{"_name":"Cat","_targetVariableID":"d6e159d9-f221-4e8c-a22a-0aa5a00aacff"},"layerMask":{"_value":{"value":119}},"offset":{"y":0.25},"saveDistanceAs":{"_name":""},"$type":"NodeCanvas.Tasks.Conditions.CheckLOS"},"_position":{"x":422.0,"y":264.0},"$type":"NodeCanvas.BehaviourTrees.ConditionalEvaluator","$id":"1"},{"_position":{"x":608.0,"y":355.0},"$type":"NodeCanvas.BehaviourTrees.StepIterator","$id":"2"},{"_action":{"target":{"_name":"HidingSpot1","_targetVariableID":"e0b06a1f-db60-4ba1-b3b7-c9203d9337fe"},"speed":{"_value":3.0},"stopDistance":{"_value":0.1},"waitActionFinish":true,"$type":"NodeCanvas.Tasks.Actions.MoveTowards"},"_position":{"x":824.9252,"y":777.4933},"$type":"NodeCanvas.BehaviourTrees.ActionNode"},{"_action":{"target":{"_name":"HidingSpot1..","_targetVariableID":"1d65c46a-ac44-442b-a926-e874c44104ad"},"speed":{"_value":3.0},"stopDistance":{"_value":0.1},"waitActionFinish":true,"$type":"NodeCanvas.Tasks.Actions.MoveTowards"},"_position":{"x":657.5541,"y":778.4933},"$type":"NodeCanvas.BehaviourTrees.ActionNode"},{"_action":{"target":{"_name":"HidingSpot1...","_targetVariableID":"ac6cf3a4-4670-44fb-86f5-c540f9b476c9"},"speed":{"_value":3.0},"stopDistance":{"_value":0.1},"waitActionFinish":true,"$type":"NodeCanvas.Tasks.Actions.MoveTowards"},"_position":{"x":509.3444,"y":780.3804},"$type":"NodeCanvas.BehaviourTrees.ActionNode"},{"_action":{"target":{"_name":"HidingSpot1.","_targetVariableID":"27e84a51-77db-4760-8c03-a1fa731170ee"},"speed":{"_value":3.0},"stopDistance":{"_value":0.1},"waitActionFinish":true,"$type":"NodeCanvas.Tasks.Actions.MoveTowards"},"_position":{"x":344.4412,"y":784.2838},"$type":"NodeCanvas.BehaviourTrees.ActionNode"}],"connections":[{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{}},"derivedData":{"repeat":true,"$type":"NodeCanvas.BehaviourTrees.BehaviourTree+DerivedSerializationData"}}'
-  _boundGraphObjectReferences: []
+  _boundGraphSerialization: '{"type":"NodeCanvas.BehaviourTrees.BehaviourTree","nodes":[{"_position":{"x":582.0,"y":183.0},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"0"},{"_condition":{"LOSTarget":{"_name":"Cat","_targetVariableID":"d6e159d9-f221-4e8c-a22a-0aa5a00aacff"},"layerMask":{"_value":{"value":119}},"offset":{"y":0.25},"saveDistanceAs":{"_name":""},"$type":"NodeCanvas.Tasks.Conditions.CheckLOS"},"_position":{"x":422.0,"y":264.0},"$type":"NodeCanvas.BehaviourTrees.ConditionalEvaluator","$id":"1"},{"_position":{"x":608.0,"y":355.0},"$type":"NodeCanvas.BehaviourTrees.StepIterator","$id":"2"},{"_action":{"ps":1,"$type":"NodeCanvas.Tasks.Actions.PlayParticle"},"_position":{"x":469.8727,"y":496.0399},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"3"},{"_action":{"target":{"_name":"HidingSpot1","_targetVariableID":"e0b06a1f-db60-4ba1-b3b7-c9203d9337fe"},"speed":{"_value":3.0},"stopDistance":{"_value":0.1},"waitActionFinish":true,"$type":"NodeCanvas.Tasks.Actions.MoveTowards"},"_position":{"x":824.9252,"y":777.4933},"$type":"NodeCanvas.BehaviourTrees.ActionNode"},{"_action":{"target":{"_name":"HidingSpot1..","_targetVariableID":"1d65c46a-ac44-442b-a926-e874c44104ad"},"speed":{"_value":3.0},"stopDistance":{"_value":0.1},"waitActionFinish":true,"$type":"NodeCanvas.Tasks.Actions.MoveTowards"},"_position":{"x":657.5541,"y":778.4933},"$type":"NodeCanvas.BehaviourTrees.ActionNode"},{"_action":{"target":{"_name":"HidingSpot1...","_targetVariableID":"ac6cf3a4-4670-44fb-86f5-c540f9b476c9"},"speed":{"_value":3.0},"stopDistance":{"_value":0.1},"waitActionFinish":true,"$type":"NodeCanvas.Tasks.Actions.MoveTowards"},"_position":{"x":509.3444,"y":780.3804},"$type":"NodeCanvas.BehaviourTrees.ActionNode"},{"_action":{"target":{"_name":"HidingSpot1.","_targetVariableID":"27e84a51-77db-4760-8c03-a1fa731170ee"},"speed":{"_value":3.0},"stopDistance":{"_value":0.1},"waitActionFinish":true,"$type":"NodeCanvas.Tasks.Actions.MoveTowards"},"_position":{"x":344.4412,"y":784.2838},"$type":"NodeCanvas.BehaviourTrees.ActionNode"}],"connections":[{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"3"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{}},"derivedData":{"repeat":true,"$type":"NodeCanvas.BehaviourTrees.BehaviourTree+DerivedSerializationData"}}'
+  _boundGraphObjectReferences:
+  - {fileID: 0}
+  - {fileID: 1117829426}
   _boundGraphSource:
     _version: 3.41
     _category: 
     _comments: 
-    _translation: {x: -170.66275, y: -20.737726}
-    _zoomFactor: 0.75009537
+    _translation: {x: -211, y: -77}
+    _zoomFactor: 0.7437161
   _firstActivation: 0
   _enableAction: 0
   _disableAction: 0
@@ -820,7 +822,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d34d10b38c782444f9da1143e7299d11, type: 2}
+  - {fileID: 2100000, guid: a9a4d251a7458d442b300c81b190a053, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1064,7 +1066,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 1, b: 1, a: 1}
+      maxColor: {r: 1, g: 0, b: 0, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
