@@ -14,9 +14,9 @@ public class MovementScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        maxSpeed = 4f;
-        accelerationTime = 0.5f;
-        deccelerationTime = 0.2f;
+        maxSpeed = 5f;
+        accelerationTime = 0.3f;
+        deccelerationTime = 0.1f;
         acceleration = maxSpeed / accelerationTime;
         decceleration = maxSpeed / deccelerationTime;
         player = gameObject.GetComponent<Rigidbody>();
